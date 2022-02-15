@@ -1,4 +1,21 @@
+.input_full{
+  width: 100%;
+}
 
+.input_billing{
+  width: 10%;
+  border: none;
+  border-bottom: 1px orange solid;
+  text-align: center;
+}
+
+
+
+.input_billing:focus-visible{
+  width: 10%;
+  border: none;
+  border-bottom: 1px orange solid;
+}
 
 @media print {
   @page { size: landscape; }

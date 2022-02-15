@@ -15,30 +15,63 @@ class ComponentToPrint extends React.Component {
 
         <div>
           <br />
-          <Row >
-            <Col lg="6">
+
+          <Row>
+
+            <Col>
             <h5 className='txt_tittle'>ESTIMATE <span className='txt_tittle_2'>INFORMATION</span> </h5>
-            <input type="text" id="fname" name="fname"></input>
-            
+            <br />
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Form.Label> Company Name</Form.Label>
             </Col>
-            <Col  lg="6" >
-            
-            <h5 className='txt_tittle'>BILLING  <span className='txt_tittle_2'>INFORMATION</span> </h5>
-            <Col  lg="2">
-            <Form.Label >Customer Pickup</Form.Label>
-            <input type="text" id="fname" name="fname"></input>
+            <Col>
+            <h5 className='txt_tittle'>BILLING <span className='txt_tittle_2'>INFORMATION</span> </h5>
             </Col>
-            <Col lg="2">
-            <Form.Label >Pick Up Date</Form.Label>  
-            <input type="text" id="fname" name="fname"></input>
+          </Row>
+
+          <Row>
+
+            <Col class="col-2">
             </Col>
-            <Col lg="2">
-            <Form.Label >Time</Form.Label>  
-            <input type="text" id="fname" name="fname"></input>
+
+
+            <Col class="col-10">
+            <form>
+              <div class="form-group">
+
+
+                <Form.Label>Customer Pickup</Form.Label>
+                <input class="input_billing" type="text" id="fname" name="fname"></input>
+
+
+                <Form.Label>Pick Up Date</Form.Label>
+                <input class="input_billing" type="text" id="fname" name="fname"></input>
+
+
+                <Form.Label>Time</Form.Label>
+                <input class="input_billing" type="text" id="fname" name="fname"></input>
+
+              </div>
+            </form>
             </Col>
+
+
+
+          </Row>
+
+
+        </div>
+        <div>
+          <Row>
+            <Col>
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Form.Label> Client Name</Form.Label>
             </Col>
-            
-            </Row>
+            <Col>
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+
+            </Col>
+          </Row>
         </div>
 
 
