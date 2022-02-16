@@ -233,8 +233,28 @@ class ComponentToPrint extends React.Component {
             </Col>
             <Col>
             <Form.Label class="label_33_l "> BCS Cost $</Form.Label>
+            <input class="input_billing" type="text" id="fname" name="fname"></input>
+            <Form.Label > + 120 design & Layout (2-5 hrs. est.)</Form.Label>
             
-            <Form.Label class="label_33_r2"> + 120 design & Layout (2-5 hrs. est.)</Form.Label>
+            </Col>
+          </Row>
+        </div>
+
+        <div>
+        <Row>
+            <Col>
+            <Form.Label class="label_33_l "> Quantinty </Form.Label>
+            <Form.Label class="label_33_c"> Size </Form.Label>
+            <Form.Label class="label_33_r"> Color(s) </Form.Label>
+            </Col>
+            <Col>
+            <Form.Label> 30% Mark Up</Form.Label>
+            <input class="input_billing_2" type="text" id="fname" name="fname"></input>
+            <Form.Label > 50% Mark Up </Form.Label>
+            <input class="input_billing_2" type="text" id="fname" name="fname"></input>
+            <Form.Label> Doubled </Form.Label>
+            <input class="input_billing_2" type="text" id="fname" name="fname"></input>
+           
             
             </Col>
           </Row>
