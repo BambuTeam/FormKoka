@@ -159,10 +159,30 @@ class ComponentToPrint extends React.Component {
           <input class="input_50" type="date" id="fname" name="fname"></input>
           </Col>
           <Col>
-          <br />
+          
+          <Form.Label class="label_33_l "> FedEx $</Form.Label>
+            <Form.Label class="label_33_c"> UPS $</Form.Label>
+            <Form.Label class="label_33_r"> Other $ </Form.Label>
+            <br />
           <strong><div>Third Party Shipping</div></strong>
           </Col>
           </Row>
+
+          <div>
+        <Row>
+            <Col>
+            <Form.Label class="label_33_l "> Date In</Form.Label>
+            
+            <Form.Label class="label_33_r2"> Due Date</Form.Label>
+            </Col>
+            <Col>
+            <input class="input_50" type="text" id="fname" name="fname"></input>
+            
+            
+            </Col>
+          </Row>
+        </div>
+
 
 
 
