@@ -327,6 +327,29 @@ class ComponentToPrint extends React.Component {
             </Col>
           </Row>
         </div>
+        <br />
+        <div>
+        <Row>
+            <Col>
+            <Form.Label class="label_33_l "> Binding</Form.Label>
+            <select class="input_33" type="select" id="fname" name="fname">
+            <option value="volvo">Saddle Stitch</option>
+            <option value="saab">Perfect Bound</option>
+            <option value="fiat">Wire-O</option>
+            <option value="audi">Ring Binders</option>  
+            </select> <pre />
+            <Form.Label class="label_33_l "> Production Time</Form.Label>
+            <input class="input_33" type="text" id="fname" name="fname"></input>
+            </Col>
+            
+            <Col>
+          
+            
+           
+            
+            </Col>
+          </Row>
+        </div>
 
         
 
