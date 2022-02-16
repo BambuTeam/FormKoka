@@ -20,12 +20,14 @@ class ComponentToPrint extends React.Component {
 
             <Col>
             <h5 className='txt_tittle'>ESTIMATE <span className='txt_tittle_2'>INFORMATION</span> </h5>
+            <div className='shape'></div>
             <br />
             <input class="input_full" type="text" id="fname" name="fname"></input>
             <Form.Label> Company Name</Form.Label>
             </Col>
             <Col>
             <h5 className='txt_tittle'>BILLING <span className='txt_tittle_2'>INFORMATION</span> </h5>
+            <div className='shape'></div>
             </Col>
           </Row>
 
@@ -67,10 +69,18 @@ class ComponentToPrint extends React.Component {
             <input class="input_full" type="text" id="fname" name="fname"></input>
             <Form.Label> Client Name</Form.Label>
             </Col>
-            <Col>
-            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Col className='label_row'>
+            
+           
+            <input class="input_billing" type="text" id="fname" name="fname"></input> <br />
+            <Form.Label> Client Name</Form.Label>
 
+            
+
+
+                
             </Col>
+           
           </Row>
         </div>
 
