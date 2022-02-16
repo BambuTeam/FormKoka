@@ -264,18 +264,64 @@ class ComponentToPrint extends React.Component {
         <Row>
             <Col>
             <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
-            <Form.Label> 70# Opaque Text</Form.Label>
+            <Form.Label>70# Opaque Text</Form.Label>
             
             <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
-            <Form.Label > 80# Gloss Text </Form.Label>
+            <Form.Label >80# Gloss Text</Form.Label>
             <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
-            <Form.Label> 80# Gloss Cover  </Form.Label>
+            <Form.Label>80# Gloss Cover</Form.Label>
             </Col>
             
             <Col>
-            <br />
+            
             <h5 className='txt_tittle'>CLIENT <span className='txt_tittle_2'>ESTIMATE</span> </h5>
           <div className='shape'></div>
+           
+            
+            </Col>
+          </Row>
+        </div>
+
+
+        <div>
+        <Row>
+            <Col>
+            <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
+            <Form.Label>100#Gloss Text</Form.Label>
+            
+            <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
+            <Form.Label >100#Gloss Cover </Form.Label>
+            <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
+            <Form.Label>120#Unco. Cover  </Form.Label>
+            </Col>
+            
+            <Col>
+            <Form.Label class="label_33_l "> Estimate: $</Form.Label>
+            <input class="input_billing" type="text" id="fname" name="fname"></input>
+            <Form.Label > + 120 design & Layout (2-5 hrs. est.)</Form.Label>
+           
+            
+            </Col>
+          </Row>
+        </div>
+
+        <div>
+        <Row>
+            <Col>
+            <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
+            <Form.Label>80# Shine Text</Form.Label>
+            
+            <input class="input_billing_2" type="checkbox" id="fname" name="fname"></input>
+            <Form.Label >13 oz. Vinyl </Form.Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <Form.Label>Other</Form.Label>
+            <input class="input_billing_3" type="text" id="fname" name="fname"></input>
+            </Col>
+            
+            <Col>
+            <Form.Label class="label_33_l "> Production Time</Form.Label>
+            <input class="input_50_r" type="text" id="fname" name="fname"></input>
+            
            
             
             </Col>
