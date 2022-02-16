@@ -209,6 +209,18 @@ class ComponentToPrint extends React.Component {
           </Row>
         </div>
 
+        <div>
+        <Row>
+            <Col>
+            <h5 className='txt_tittle'>SPEC <span className='txt_tittle_2'>INFORMATION</span> </h5>
+          <div className='shape'></div>
+            </Col>
+            <Col>
+           
+            </Col>
+          </Row>
+        </div>
+
         
 
 
