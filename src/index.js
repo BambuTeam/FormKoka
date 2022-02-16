@@ -69,18 +69,69 @@ class ComponentToPrint extends React.Component {
             <input class="input_full" type="text" id="fname" name="fname"></input>
             <Form.Label> Client Name</Form.Label>
             </Col>
-            <Col className='label_row'>
-            
-           
-            <input class="input_billing" type="text" id="fname" name="fname"></input> <br />
-            <Form.Label> Client Name</Form.Label>
-
-            
-
-
-                
+            <Col class="row_break">
+          <strong><div>Drop Off</div></strong>
+            <input class="input_33 gx-5" ></input> 
+            <input  class="input_33 gx-5" ></input> 
+            <input  class="input_33 gx-5"></input> 
             </Col>
-           
+          </Row>
+        </div>
+
+        <div>
+          <Row>
+            <Col>
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Form.Label> Address</Form.Label>
+            </Col>
+            <Col >
+            <Form.Label class="label_33_l "> Company</Form.Label>
+            <Form.Label class="label_33_c"> Client</Form.Label>
+            <Form.Label class="label_33_r"> Phone #</Form.Label>
+            </Col>
+          </Row>
+        </div>
+
+        <div>
+        <Row>
+            <Col>
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Form.Label> Phone #</Form.Label>
+            </Col>
+            <Col>
+            <Form.Label class=" m-t">Address</Form.Label>
+            <input class="input_full " type="text" id="fname" name="fname"></input>
+            </Col>
+          </Row>
+        </div>
+
+        <div>
+        <Row>
+            <Col>
+            <input class="input_50" type="text" id="fname" name="fname"></input>
+            <input class="input_50" type="text" id="fname" name="fname"></input>
+            </Col>
+            <Col>
+            <input class="input_33 gx-5" ></input> 
+            <input  class="input_33 gx-5" ></input> 
+            <input  class="input_33 gx-5"></input> 
+            </Col>
+          </Row>
+        </div>
+
+        <div>
+        <Row>
+            <Col>
+            <Form.Label class="label_33_l "> Phone #</Form.Label>
+            
+            <Form.Label class="label_33_r2"> Email Address</Form.Label>
+            </Col>
+            <Col>
+            <Form.Label class="label_33_l "> Delivery $</Form.Label>
+            <Form.Label class="label_33_c"> Gas $</Form.Label>
+            <Form.Label class="label_33_r"> Toll $ </Form.Label>
+            
+            </Col>
           </Row>
         </div>
 
