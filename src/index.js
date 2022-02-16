@@ -176,12 +176,40 @@ class ComponentToPrint extends React.Component {
             <Form.Label class="label_33_r2"> Due Date</Form.Label>
             </Col>
             <Col>
-            <input class="input_50" type="text" id="fname" name="fname"></input>
-            
-            
+            <input class="input_50_r" type="text" id="fname" name="fname"></input>
+            <Form.Label>FedEx Acct. #</Form.Label>
+            <input class="input_50_r" type="text" id="fname" name="fname"></input>
+            <Form.Label>UPS Acct. #</Form.Label>
+            <input class="input_50_r" type="text" id="fname" name="fname"></input>
+            <Form.Label>Other Acct. #</Form.Label>
             </Col>
           </Row>
         </div>
+
+        <div>
+        <Row>
+            <Col>
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Form.Label> Project Name</Form.Label>
+            </Col>
+            <Col></Col>
+          </Row>
+        </div>
+
+        <div>
+        <Row>
+            <Col>
+            <input class="input_full" type="text" id="fname" name="fname"></input>
+            <Form.Label> Job Description</Form.Label>
+            </Col>
+            <Col>
+            <h5 className='txt_tittle'>BCS COST <span className='txt_tittle_2'>INFORMATION</span> </h5>
+          <div className='shape'></div>
+            </Col>
+          </Row>
+        </div>
+
+        
 
 
 
