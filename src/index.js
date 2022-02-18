@@ -15,9 +15,7 @@ class ComponentToPrint extends React.Component {
 
         <div>
           <br />
-
           <Row>
-
             <Col>
             <h5 className='txt_tittle'>ESTIMATE <span className='txt_tittle_2'>INFORMATION</span> </h5>
             <div className='shape'></div>
@@ -30,16 +28,16 @@ class ComponentToPrint extends React.Component {
             <div className='shape'></div>
             </Col>
           </Row>
+          
+          <Row class=" mt_fix">
 
-          <Row>
-
-            <Col class="col-2">
+            <Col class="col-2 mt_fix">
             </Col>
 
 
             <Col class="col-10">
             <form>
-              <div class="form-group">
+              <div class="form-group mt_fix">
 
 
                 <Form.Label>Customer Pickup</Form.Label>
