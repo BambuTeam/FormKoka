@@ -1,9 +1,33 @@
+@font-face {
+  font-family: FonTitle;
+  src: url(../src/font/FontTtitle.ttf);
+}
+
+@font-face {
+  font-family: FontBody;
+  src: url(../src/font/text.otf);
+}
+
+
+p{
+  font-family: FontBody;
+
+}
+
+
+h1,h2,h3,h4,h5 {
+
+font-family: FonTitle;
+
+}
+
 .row_break{
   width: 10%;
   display: inline-block !important;
 }
 
 .input_full{
+  font-family: FontBody;
   width: 100%;
   border: none;
   border-right: solid 1px #e06c00;
@@ -12,6 +36,7 @@
 }
 
 .input_50{
+  font-family: FontBody;
   width: 50%;
   border: none;
   border-right: solid 1px #e06c00;
@@ -20,6 +45,7 @@
 }
 
 .input_50_r{
+  font-family: FontBody;
   float: right;
   width: 80%;
   border: none;
@@ -29,6 +55,7 @@
 }
 
 .input_33{
+  font-family: FontBody;
   width: 33.33%;
   border: none;
   border-right: solid 1px #e06c00;
@@ -37,6 +64,7 @@
 }
 
 .input_section{
+  font-family: FontBody;
   width: 12%;
   border: none;
   border-bottom: 1px orange solid;
@@ -45,6 +73,7 @@
 }
 
 .input_billing{
+  font-family: FontBody;
   width: 20%;
   border: none;
   border-bottom: 1px orange solid;
@@ -52,6 +81,7 @@
 }
 
 .input_billing_2{
+  font-family: FontBody;
   width: 15%;
   border: none;
   border-bottom: 1px orange solid;
@@ -60,6 +90,7 @@
 
 
 .input_billing_3{
+  font-family: FontBody;
   width: 20%;
   border: none;
   border-bottom: 1px orange solid;
@@ -82,10 +113,12 @@
 }
 
 .txt_tittle{
+  font-family: FontBody;
   color:  #2b1a12;
 }
 
 .txt_tittle_2{
+  font-family: FontBody;
   color: #e06c00;
 }
 
@@ -113,19 +146,23 @@ h5{
 /* DROP OFF */
 
 .label_33_l{
+  font-family: FontBody;
   float: left;
 }
 
 .label_33_c{
+  font-family: FontBody;
   padding-left: 150px;
 }
 
 .label_33_r{
+  font-family: FontBody;
   padding-left: 165px;
 
 }
 
 .label_33_r2{
+  font-family: FontBody;
   padding-left: 265px;
 
 }
