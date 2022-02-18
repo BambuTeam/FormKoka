@@ -11,10 +11,13 @@
 
 p{
   font-family: FontBody;
-
 }
 
-
+.form-label {
+  font-family: FontBody;
+  font-size: 12px;
+  margin-bottom: 1px !important;
+}
 h1,h2,h3,h4,h5 {
 
 font-family: FonTitle;
@@ -33,6 +36,7 @@ font-family: FonTitle;
   border-right: solid 1px #e06c00;
   border-left: solid 1px #e06c00;
   border-bottom: solid 1px #e06c00;
+  height: 16px;
 }
 
 .input_50{
@@ -75,6 +79,7 @@ font-family: FonTitle;
 .input_billing{
   font-family: FontBody;
   width: 20%;
+  height: 16px;
   border: none;
   border-bottom: 1px orange solid;
   text-align: center;
